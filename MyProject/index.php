@@ -22,7 +22,7 @@
                   <img src="img/privacy3.png" height="20px" width="20px" style="margin:0% 0% 0% 3%;"><span style="margin-left:18px;">Privacy settings</span>
               </li>
               <li>
-                  <img src="img/post1.png" height="20px" width="20px" style="margin:0% 0% 0% 3%;"><span style="margin-left:18px;">Add New Post</span>
+                  <img src="img/post1.png" height="20px" width="20px" style="margin:0% 0% 0% 3%;"><span style="margin-left:18px;"><a href="#newpost">Add New Post</a></span>
               </li>
               <li>
                   <img src="img/notification.png" height="20px" width="20px" style="margin:0% 0% 0% 3%;"><span style="margin-left:18px;">Notification</span>
@@ -31,6 +31,8 @@
        
         </div>
         <div class="wrapr">
+          <div class="npost" id="newpost">
+        </div>
         <?php
         for($i=0;$i<2;$i++)
         {   
@@ -39,7 +41,7 @@
             <div class="r11">
                 <img src="img/profile.png" height="50px" width="50px" style="border-radius:50%;background-color:pink;margin:14px 0px 0px 10px;;float:left">
                 <span style="margin:20px 0px 0px 5px;color:black;position:absolute;"><b>Neha Parneriya </b>shared a post</span> 
-             <span style="margin:38px 0px 0px 5px;position:absolute;">10 August <img src="img/public1.png" height="15px" width="15px;" style="margin-top:1px;position:absolute;margin-left:5px;"></span>
+             <span style="margin:38px 0px 0px 5px;position:absolute;">10 August<img src="img/public1.png" height="15px" width="15px;" style="margin-top:3px;position:absolute;margin-left:5px;"></span>
               
             </div>    
             <div class="r12">
@@ -56,7 +58,7 @@
           </div>
                <div class="r15">
                 <img src="img/profile.png" height="35px" width="35px" style="border-radius:50%;background-color:white;margin-top:1%;margin-bottom:1%;margin-left:1%;">
-                <input type="text" name="Comment" style="margin:10px 0px 0px 17px;width:70%;height:30px;border-radius:50px 50px 50px 50px;" size="45%">&nbsp;
+                <input type="text" id="Comment" style="margin:10px 0px 0px 17px;width:70%;height:30px;border-radius:50px 50px 50px 50px;" size="45%">&nbsp;
                 <input type="submit" name="post" value="Post" class="btn btn-default" style="border-radius:20px 20px 20px 20px;width:10%;">
                </div>    
                 
@@ -67,8 +69,9 @@
         }
             ?>
             
-        
+
         </div>
+
     </div>
 </body>
 </html>
