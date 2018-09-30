@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background:linear-gradient(#43F5BF,#08f992);
+}
+.signin{
+    position: absolute;
+    width: 450px;
+    height:100%;
+    margin-top: 5%;
+    visibility: hidden;
+}
+.signup{
+    margin-top: 8%;
+    position: absolute;
+    width: 450px;
+    height:100%;
+    visibility: visible;
+}
+.reg
+{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    width: 900px;
+    height: 650px;
+}
+#rg1
+{
+    width: 450px;
+    height: 100%;
+    background:white;
+    box-sizing:border-box;
+    text-decoration:none;
+    transition: .5s ease;
+    font-size:18px;
+    font-weight:bold;
+    border-radius: 15px 0px 0px 15px;
+    float: left;
+    border-right: groove;
+    border-width: thin;
+    border-right-color: gray;
+}
+.rg2{
+
+    width: 450px;
+    height:100%;  
+    background:white;
+    box-sizing:border-box;
+    text-decoration:none;
+    transition: .5s ease;
+    font-size:18px;
+    font-weight:bold;
+    border-radius: 0px 15px 15px 0px;
+    float: left;
+}
+.h1 
+{    
+color:#000000;
+font-size:25px;
+font-family:"Times New Roman";
+font-weight:bold;
+width:45%;
+margin-left: 20px;
+margin-top: 20px;
+}
+.rg2 input::placeholder
+{
+    color: gray;
+    opacity: 0.7;
+    font-family: Times new roman;
+}
+#btn1{
+    float: left;
+    margin-left: 190px;
+    background: white;
+    color: gray;
+    opacity: 0.8;
+    border-radius: 10px 0 0 10px;
+    font-family: Times new roman;
+}
+#btn2{
+    float: left;
+    background:linear-gradient(#43F5BF,#08f992);
+    border-radius: 0 10px 10px 0;
+    color: gray;
+    font-family: Times new roman;
+}
+/*#btn1:active//no need for this code
+{
+    background-color:green;
+}
+#btn2:active
+{
+    background:red;
+}*/
+.btn-group button {
+    margin-top: 50px;
+    border: 1px solid gray;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    border-top: 12%;
+}
+
+#email{
+    width: 85%;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: blue;
+
+}
+#fname{
+	width:42%;
+    margin-left: 30px;
+}
+#surname{
+	width:42%;
+    margin-right: 20px;
+}
+#pass{
+    width:85%;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#cpass{
+    width: 85%;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#bir{
+	padding:3px 13px;
+	display:inline-block;
+	border:2px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;
+	font-size:16px;
+    color: gray;
+    opacity: 0.7;
+	background:white;
+    float: left;
+	width:85%;
+    margin-left: 30px;
+    margin-right: 20px;  
+    height: 35px;
+} 
+
+.image1{
+    height: 160px;
+    width: 35%;
+    border: groove 4px;
+    margin-left: 30px;
+    margin-top: 12px;  
+    float: left;
+}
+.imgdes{
+    display: none;
+    float: left;
+}
+.box:hover .imgdes{display: block;height: 135px;width: 230px;border: groove 1px;margin-left: 200px;position: absolute;margin-top: 7px;
+    font-family: Times new roman;color: black;font-size: 15px;text-align: justify;padding: 7px 12px;box-shadow: 0px 0px 10px gray;opacity: 0.6}
+
+.reg input[type="text"]
+{
+	padding:12px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;
+	font-size:18px;
+	background:white;
+	opacity:0.9;
+}
+.button input[type="submit"],input[type="button"]{
+border:none;
+height:38px;
+background:linear-gradient(#43F5BF,#08f992);
+color:white;
+font-size:18px;
+border-radius:8px;
+width:85px;
+border: 1px solid black 0.3;
+float:left;
+transition: .5s ease;
+margin-left: 7%;
+margin-top: 5%;/*change 33*/
+}
